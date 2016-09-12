@@ -31,6 +31,7 @@ div#members img{
 	margin-right: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	border: 1px solid black;
 }
 div#instruction{
 	margin-left: 260px;
