@@ -1,2 +1,3 @@
-Hello!
-This is my first time to use git.
+
+大家好！
+这是我的个人主页：http://Sunweiting527.github.io/mygit/mypage.html
