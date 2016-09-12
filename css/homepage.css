@@ -1,0 +1,103 @@
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+}
+body {
+  font: 12px/1.5 Microsoft YaHei,arial,sans-serif,'宋体';
+}
+/*页面框架*/
+header{
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	height: 80px;
+}
+#container{	
+	width: 100%;
+	overflow:auto;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	right: 0px;
+	bottom: 50px;
+	background-color: #D1EEEE;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #858585;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+#leftbar{
+	position: absolute;
+	width: 150px;
+	margin: 20px 10px 20px 50px;
+	background-color: #87CEFA;
+	border: 1px solid #ccc;
+}
+#main{
+	position: absolute;
+	left: 220px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 20px 50px 20px 10px;
+	background-color: #87CEFA;
+}
+.clear{
+	clear: both;
+}
+/*leftbar个人信息部分*/
+.myphoto img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 15px 15px 0 15px;
+}
+.personal_info{
+	margin: 5px;
+}
+/*主页面内容部分*/
+#title_list{
+	/*position: fixed;*/
+}
+#title_list ul{
+  list-style: none;
+}
+#title_list li{
+  display: inline-block;
+ 	width: 60px;
+ 	height: 28px;
+ 	line-height: 28px;
+ 	text-align: center;
+ 	cursor: pointer;
+	border-radius: 5px;
+}
+#title_list .on{
+  background-color: #63B8FF;
+}
+#content{
+  padding: 5px 20px 20px 20px;
+	position: absolute;
+	top: 28px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: auto;
+}
+#content .hide{
+	display: none;
+}
+/*作品列表*/
+#ife_task_list li{
+	width: 50%; 
+	float: left;
+	display: block; 
+}
+a{
+	color: blue;
+}
