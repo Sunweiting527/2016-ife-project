@@ -1,2 +1,1 @@
-Hello!
-This is my first time to use git.
+My homepage is: http://sunweiting527.github.io/mygit/mypage.html
